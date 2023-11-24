@@ -16,4 +16,22 @@ most_common_word=$(find $directory_path -type f -exec cat {} + | tr -sc 'A-Za-z'
 echo "Most common word in files in $directory_path is: $most_common_word"
 ```
 ### Задание 2
+С помощью команд эмулятора git получить состояние проекта, как на картинке
 ### Решение
+```sh
+//список команд:
+git branch unwomanly
+git commit
+git checkout unwomanly
+git commit
+git checkout master
+git commit
+git branch drop-down
+git commit
+git commit
+git branch dipped
+git checkout drop-down
+git commit
+git checkout unwomanly
+git rebase drop-down
+```
