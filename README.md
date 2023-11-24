@@ -17,6 +17,7 @@ echo "Most common word in files in $directory_path is: $most_common_word"
 ```
 ### Задание 2
 С помощью команд эмулятора git получить состояние проекта, как на картинке
+<img width="624" alt="Снимок экрана 2023-11-24 в 18 32 30" src="https://github.com/wespa4/KU/assets/145107412/503be5a2-996b-48ae-8c3e-dba628bf33cf">
 ### Решение
 ```sh
 //список команд:
